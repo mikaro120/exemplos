@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 align="center"><b>Formulário de Cadastro de Pessoa Física</b></h1>
+    <form>
+        <p>
+            <label>Nome:<input type="text" name="nome" size="40"></label>
+        </p>
+        <p>
+            <label>CPF:<input type="text" name="cpf" size="15"></label>
+        </p>
+        <p>
+            <label>RG:<input type="text" name="rg" size="15"></label>
+        </p>
+        <p>Sexo:</p>
+        <p></p>
+            <label>Masculino<input type="radio" name="sexo" value="M"</label>
+            <br>
+            <label>Feminino<input type="radio" name="sexo" value="F"</label>
+        <p><br>
+            <label>Estado:
+                <select name="Estado">
+                    <option value="sp">Casa do jorge</option>
+                    <option value="rj">Casa do Leandro</option>
+                    <option value="es">Esquina do Bar</option>
+                    <option value="mg">Toca do Snoop</option>
+                    <option value="pr">Boca de fumo</option>
+                    <option value="sc">Casa da Barbie</option>
+                    <option value="rs">Sapatolandia</option>
+                    <option value="ba">Academia</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Estado Civil:
+                <select name="civil">
+                    <option value="livre">Livre</option>
+                    <option value="fudido">Fudido</option>
+                    <option value="sofredor">Sofredor</option>
+                    <option value="pobre">Pobre</option>
+                    <option value="nem deus sabe">Nem deus sabe</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Peso:<input type="text" name="peso" size="1"></label>
+        </p>
+        <p>
+                <label>Altura:<input type="text" name="altura" size="1"></label>
+        </p>
+        <p>
+            <label>
+            <input type="submit" name="cadastrar" value="Cadastrar">
+            <input type="reset" name="limpar" value="Limpar">
+            </label>
+        </p>
+    </form>
+</body>
+</html>
