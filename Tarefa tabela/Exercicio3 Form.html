@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario 3</title>
+    <style>
+        #email:valid{background: #006600; color: #fff}
+        #email:invalid{background: #990000; color: #fff}
+    </style>
 </head>
 <body>
     <br>
@@ -17,13 +21,60 @@
     <form>
         <table border="2" width="33%">
         <tbody>
-                <tr>
-                    <td align="left">
+            <tr>
+                <td align="left">
                     <b>Dados pessoais: </b>        
+                        <p></p>
+                        <center>
+                    <label>Nome:<input type="text" name="nome" size="40"></label>
+                        <p></p>
+                    Nascimento: <input type="date">
+                        <p></p>
+                    <label>Nome da mãe: <input type="text" name="nome da mãe" size="20"></label>
+                        <p></p>
+                    <label>Nome do pai: <input type="text" name="nome do pai" size="20"></label>
+                        <p></p>
+                    Telefone DDD: <input id="telefone" placeholder="(xx) xxxx-xxxx" name="tel" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}" required>
+                        <p></p>
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" required>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+
+        <table border="2" width="36%">
+            <tbody>
+                <tr>
+                    <td colspan="1">
+                        <b>Informações de Matricula:</b>
                             <p></p>
-                            <center>
-                            <label>Nome:<input type="text" name="nome" size="40"></label>
-                            <br>
-                            <label>Nascimento<input type="text" name="nascimento" size="20"></label>
+                        <label> Série:
+                            <select name="serie">
+                                <option value="Pré-escolar">Pré-escolar</option>
+                                <option value="Pré-escolar">Ensino fundamental</option>
+                                <option value="Pré-escolar">Ensino Médio</option>
+                            </select>
+                        </label>
+                                Turno:
+                            <label>Manhã<input type="radio" name="manha"></label>
+                            <label>Tarde<input type="radio" name="manha"></label>
+                        <label>
+                            &nbsp;
+                                Atividades Extracurriculares
+                            <select name="checkbox">
+                                <option name="checkbox" value="Informática">Informatica</option>
+                                <option name="checkbox" value="Música">Música</option>
+                                <option name="checkbox" value="Balet">Balet</option>
+                                <option name="checkbox" value="Pintura">Pintura</option>
+                                <option value="Judô">Judô</option>
+                                <option value="Futebol">Futebol</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
 </body>
 </html>
