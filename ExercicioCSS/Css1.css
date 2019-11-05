@@ -1,12 +1,12 @@
-*{
-    margin: 10px    
+body {
+    margin: 10px;
+    padding-top: 100px;
 }
 
 #text {
     width: 800px;
-    margin: 0 auto;
+    margin: auto;
     background-color: white;
     border: 1px solid #333;
-    padding: 10px;
-
+    padding-left: 10px;
 }
