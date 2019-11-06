@@ -1,13 +1,16 @@
 body {
     margin: 10px;
-    padding-top: 100px;
+    padding-top: 90px;
     background-color: rgb(200, 210, 255);
+    font-style: verdana;
+    text-align: center;
 }
 
 #text {
-    width: 800px;
+    vertical-align: middle;
+    width: 400px;
     margin: auto;
     background-color: white;
     border: 1px solid #333;
-    padding-left: 10px;
+    color: red;
 }
