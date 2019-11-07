@@ -1,11 +1,10 @@
 body{
-    
+    margin: 0px;
 }
 
 #aprendendo {
     font-size: 35px;
     background-image: url(verdeclaro.png);
-    padding: 10px;
     text-align: right;
 }
 
